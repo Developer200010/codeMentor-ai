@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black text-white transition-colors duration-500">
       <div className="max-w-2xl w-full p-10 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg text-center">
@@ -34,3 +34,6 @@ export default function Home() {
     </div>
   );
 }
+
+// Export the page component
+export default Home;
