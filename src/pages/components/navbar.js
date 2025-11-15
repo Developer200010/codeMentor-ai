@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export const Navbar = () => {
+export default function Navbar(){
 return (
 <nav className="w-full fixed top-0 left-0 z-20 backdrop-blur-md bg-white/5 border-b border-white/10">
 <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">

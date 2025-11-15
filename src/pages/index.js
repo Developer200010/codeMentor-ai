@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
-import { Navbar } from "@/pages/components/navbar";
+import Navbar  from "@/pages/components/navbar";
 
 export default function Home() {
   return (
